@@ -1,8 +1,8 @@
 class Book{
 String book_name='';
 String author_name='';
-int publication_Year='';
-int pages_Read='';
+int publication_Year='2004';
+int pages_Read='200';
 Book(this.book_name,this.author_name,this.publication_Year);
 void read(int pages){
   pages_Read+=pages;
