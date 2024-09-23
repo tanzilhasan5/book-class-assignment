@@ -16,7 +16,6 @@ void main() {
   print('Publication_Year:${book1.getPublication_Year()}');
   print('Pages_Read:${book1.getpages_Read()}');
   print('Age:${book1.getBook_Age()}Years');
-  print("Total Books Created: ${Book.totalBooks}");
 
   print('Book2');
   print('Title:${book2.getTitle()}');
@@ -32,13 +31,6 @@ void main() {
   print('Pages_Read:${book3.getpages_Read()}');
   print('Age:${book3.getBook_Age()}Years');
   print("Total Books Created: ${Book.totalBooks}");
-
-
-
-  print("Total Books Created: ${Book.totalBooks}");
-
-
-
 
 
 }
